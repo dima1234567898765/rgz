@@ -1,0 +1,50 @@
+<head>
+<script src="https://www.cbr-xml-daily.ru/money.js"></script> 
+<!--<script src="many.js"> </script>-->
+<script src="q2.js"> </script>
+<script src="jquery.js"> </script>
+<script scr="USD.js"> </script>
+<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Калькулятор валют: Рубль - Доллар</h1>
+        <div class="converter">
+            <div>
+                <label for="v1">Какую</label>
+                 <select id="v1">
+                  <option value="USD">Доллар</option>
+                  <option value="RUB">Рубли</option>
+                  <option value="AUD">Австр. доллар</option>
+
+                  </select>  
+                  <label for="v2">В какую</label>
+                 <select id="v2">
+                  <option value="USD">Доллар</option>
+                  <option value="RUB">Рубли</option>
+                  <option value="AUD">Австр. доллар</option>
+                  </select>
+                <input type="number" id="rub" placeholder="Введите сумму">
+            
+                <h1>Курс валют на <span id="date"></span></h1>
+                <p>Доллар США: <span id="usd"></span></p>
+                <p>Австр. доллар: <span id="aud"></span></p>
+              
+                <script src="USD.js"></script>
+            </div>
+
+            
+            <button id="convert" onclick="f1()" >Конвертировать</button>
+        </div>
+        <p id="rate"></p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Госкорпорация "Роскосмос"</p>
+        <li><a href="index.html">О компании</a></li>
+        <li><a href="news.html">Новости</a></li>
+        <li><a href="currency.html">Курс валют</a></li>
+        <li><a href="contacts.html">Контактные данные</a></li>
+        <li><a href="video.html">Видео</a></li>
+    </footer>
+   
+</body>
